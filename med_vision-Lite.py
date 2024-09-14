@@ -117,7 +117,7 @@ def main():
         st.session_state.history = []
 
     # Hidden predefined prompt for medical analysis (this will not be shown to the user)
-    predefined_prompt = ("If User gives a medical based data scan and say it also instruct them to go to a medical practioner near them based on the input given like skin allergy to dermatologist, bone fracture to orthologist."
+    predefined_prompt = ("describe the image and also ask the user to consult a doctor regarding this."
     )
 
     # Sidebar for navigation
